@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --bg: #d5e1ef;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-color: var(--bg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    background-color: var(--white);
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagem{
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.titulo{
+    font-family: 'Outfit', sans-serif;
+    color: var(--dark-blue);
+    font-size: 22px;
+    padding: 15px 0px;
+}
+
+.paragrafo{
+    font-family: 'Outfit', sans-serif;
+    color: var(--grayish-blue);
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.attribution {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+    color: #333;
+  }
+
+  .attribution a {
+    color: hsl(228, 62%, 59%);
+    font-weight: bold;
+  }
